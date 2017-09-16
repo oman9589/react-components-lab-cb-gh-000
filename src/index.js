@@ -1,6 +1,6 @@
 // Make sure to import React and ReactDOM
 import React
-import ReatDOM
+import ReactDOM
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
