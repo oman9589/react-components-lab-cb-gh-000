@@ -21,7 +21,13 @@ export class OlderCoaster extends React.Component {
     ]);
   }
 };
-export class InFrontOfYou extends React.Component {};
+export class InFrontOfYou extends React.Component {
+  render() {
+    return React.createElement('div', {}, [
+      
+    ]);
+  }
+};
 export class ButcherShop extends React.Component {};
 
 ReactDOM.render(
