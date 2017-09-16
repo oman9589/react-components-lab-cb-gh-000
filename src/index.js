@@ -32,7 +32,7 @@ export class InFrontOfYou extends React.Component {
 export class ButcherShop extends React.Component {
   render() {
     return React.createElement('ul',{},
-      React.createElement('li', {}, BUTCHER_PRODUCTS.map((meat) => <li meat /li>)),
+      React.createElement('li', {}, BUTCHER_PRODUCTS.map((meat) => <li> meat </li>)),
     );
   }
 };
