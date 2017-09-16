@@ -32,8 +32,9 @@ export class InFrontOfYou extends React.Component {
 export class ButcherShop extends React.Component {
   render() {
     return React.createElement('ul',{},
-      React.createElement('li', {}, BUTCHER_PRODUCTS.map())
+      React.createElement('li', {}, this.props.list)
     );
+    React.render(<butcher_products list={BUTCHER_PRODUCTS.map()} />, document.getElementById();
   }
 };
 
